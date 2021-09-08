@@ -1,11 +1,7 @@
-<div class="container">
+<div class="wrapper">
   <div class="cards">
-    <div class="row">
-      <% data.projects.each do |project|  %>
-        <div class="project-card col-6 text-center">
-          <%= project.name %>
-        </div>
-      <% end %>
-    </div>
+    <% data.projects.each do |project|  %>
+      <%= partial "partials/card", :locals => { :project => project } %>
+    <% end %>
   </div>
 </div>

@@ -1,12 +1,31 @@
 - name: BarcSnap!
-  image: some_product.png
+  images: [barcsnap-landing.png, barcsnap-product.png, barcsnap-compare.png,
+           barcsnap-favorites.png]
+  description: Compare information on Japanese products by scanning their barcodes.
+  tech: Leverages the Scandit Barcode Scanner SDK to read barcodes alongside
+         the gems open-uri and nokogiri to scrape https://www.jancode.xyz/ for
+         product information using XPath path expressions.
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
+    - devicon-javascript-plain
 - name: Thank you, Chef!
-  image: some_product.png
-- name: Get Watching!
-  image: other_product.png
-- name: BarcSnap!
-  image: some_product.png
-- name: Thank you, Chef!
-  image: some_product.png
-- name: Get Watching!
-  image: other_product.png
+  images: [thank-you-chef-landing.png, thank-you-chef-course.png,
+           thank-you-chef-bookings.png, thank-you-chef-courses.png]
+  description:
+  tech:
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
+    - devicon-javascript-plain
+- name: Get Watching
+  images: [get-watching-landing.png, get-watching-list.png]
+  description:
+  tech:
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
+    - devicon-javascript-plain
