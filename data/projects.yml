@@ -1,4 +1,12 @@
-- name: Some product
+- name: BarcSnap!
   image: some_product.png
-- name: Other product
+- name: Thank you, Chef!
+  image: some_product.png
+- name: Get Watching!
+  image: other_product.png
+- name: BarcSnap!
+  image: some_product.png
+- name: Thank you, Chef!
+  image: some_product.png
+- name: Get Watching!
   image: other_product.png
