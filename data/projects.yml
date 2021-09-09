@@ -21,7 +21,7 @@
     - devicon-heroku-original
     - devicon-javascript-plain
 - name: Get Watching
-  images: [get-watching-landing.png, get-watching-list.png]
+  images: [get-watching-list.png]
   description:
   tech:
   tags:

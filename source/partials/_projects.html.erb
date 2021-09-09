@@ -3,14 +3,8 @@
     <% data.projects.each do |project|  %>
       <div class="card">
         <h5><%= project.name %></h2>
-        <div class="images-project">
-          <% project.images.each do |image| %>
-            <p><%= image_tag (image) %></p>
-          <% end %>
-        </div>
+        <p><%= image_tag (project.images[0]) %></p>
         <div class="info-project">
-          <p><%= project.description %></p>
-          <p><%= project.tech %></p>
           <% project.tags.each do |tag| %>
             <span><i class="<%= tag %>"></i></span>
           <% end %>
