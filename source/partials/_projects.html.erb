@@ -2,9 +2,13 @@
   <div class="cards">
     <% data.projects.each do |project|  %>
       <div class="card">
-        <h5><%= project.name %></h2>
-        <p><%= image_tag (project.images[0]) %></p>
-        <div class="info-project">
+        <div class="card-title">
+          <h5><%= project.name %></h5>
+        </div>
+        <div class="card-image">
+          <%= image_tag (project.images[0]) %>
+        </div>
+        <div class="card-info">
           <% project.tags.each do |tag| %>
             <span><i class="<%= tag %>"></i></span>
           <% end %>
