@@ -1,19 +1,17 @@
-<div class="wrapper">
-  <div class="cards">
-    <% data.projects.each do |project|  %>
-      <div class="card">
-        <div class="card-title">
-          <h5><%= project.name %></h5>
-        </div>
-        <div class="card-image">
-          <%= image_tag (project.images[0]) %>
-        </div>
-        <div class="card-info">
-          <% project.tags.each do |tag| %>
-            <span><i class="<%= tag %>"></i></span>
-          <% end %>
-        </div>
+<div class="cards">
+  <% data.projects.each do |project|  %>
+    <div class="card-project">
+      <div class="card-project-title">
+        <h5><%= project.name %></h5>
       </div>
-    <% end %>
-  </div>
+      <div class="card-project-image">
+        <%= image_tag (project.images[0]) %>
+      </div>
+      <div class="card-project-info">
+        <% project.tags.each do |tag| %>
+          <span><i class="<%= tag %>"></i></span>
+        <% end %>
+      </div>
+    </div>
+  <% end %>
 </div>
