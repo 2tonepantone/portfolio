@@ -1,7 +1,21 @@
 <div class="wrapper">
   <div class="cards">
     <% data.projects.each do |project|  %>
-      <%= partial "partials/card", :locals => { :project => project } %>
+      <div class="card">
+        <h5><%= project.name %></h2>
+        <div class="images-project">
+          <% project.images.each do |image| %>
+            <p><%= image_tag (image) %></p>
+          <% end %>
+        </div>
+        <div class="info-project">
+          <p><%= project.description %></p>
+          <p><%= project.tech %></p>
+          <% project.tags.each do |tag| %>
+            <span><i class="<%= tag %>"></i></span>
+          <% end %>
+        </div>
+      </div>
     <% end %>
   </div>
 </div>
