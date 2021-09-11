@@ -1,0 +1,13 @@
+<div class="container py-3 d-flex flex-column">
+  <% data.projects.each do |project| %>
+    <div class="project py-3 d-flex">
+      <div class="image d-flex align-items-center">
+        <%= image_tag project.image || lorem.image('300x350') %>
+      </div>
+      <div class="project-infos d-flex flex-column justify-content-center">
+        <h3><%= project.title %></h3>
+        <p><%= project.description || lorem.sentence %></p>
+      </div>
+    </div>
+  <% end %>
+</div>

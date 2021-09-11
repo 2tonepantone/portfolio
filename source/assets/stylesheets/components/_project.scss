@@ -1,0 +1,17 @@
+.project-infos {
+  background-color: $lavender-blush;
+  width: 100vh;
+  height: 450px;
+  padding-left: 164px;
+}
+
+.project .image {
+  position: relative;
+  left: 150px;
+  margin-left: -150px;
+}
+
+.project img {
+  width: 300px;
+  height: 350px;
+}
