@@ -1,8 +1,13 @@
+.project {
+  width: 100%;
+}
+
 .project-infos {
-  background-color: $lavender-blush;
-  width: 50vh;
+  border: 10px solid $nyanza;
+  width: 100vw;
   height: 450px;
   padding-left: 164px;
+  padding-right: 12px;
 }
 
 .project:nth-child(even) {
@@ -13,6 +18,7 @@
   .project-infos {
     padding-right: 164px;
     padding-left: 24px;
+    text-align: end;
   }
 }
 

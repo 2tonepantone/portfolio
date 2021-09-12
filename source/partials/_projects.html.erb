@@ -1,12 +1,18 @@
-<div class="container py-3 d-flex flex-column align-items-center">
+<div class="container py-3 d-flex flex-column">
   <% data.projects.each do |project| %>
-    <div class="project py-3 d-flex">
+    <div class="project py-3 mb-5 d-flex">
       <div class="image d-flex align-items-center">
         <%= image_tag project.image, :alt => "#{project.title} project photo" %>
       </div>
       <div class="project-infos d-flex flex-column justify-content-center">
         <h3><%= project.title %></h3>
-        <p><%= project.description || lorem.sentence %></p>
+        <p><%= project.description %></p>
+        <p><%= project.tech || lorem.sentence %></p>
+        <div class="project-tags">
+          <% project.tags.each do |tag| %>
+            <span><i class="<%= tag %>"></i></span>
+          <% end %>
+        </div>
       </div>
     </div>
   <% end %>
