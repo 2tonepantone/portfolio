@@ -2,7 +2,7 @@
   <% data.projects.each do |project| %>
     <div class="project py-3 d-flex">
       <div class="image d-flex align-items-center">
-        <%= image_tag project.image %>
+        <%= image_tag project.image, :alt => "#{project.title} project photo" %>
       </div>
       <div class="project-infos d-flex flex-column justify-content-center">
         <h3><%= project.title %></h3>
