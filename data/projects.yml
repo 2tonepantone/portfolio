@@ -9,6 +9,8 @@
     - devicon-postgresql-plain-wordmark
     - devicon-heroku-original
     - devicon-javascript-plain
+  sites: ["https://www.barcsnap.com/", "https://github.com/2tonepantone/barcsnap"]
+
 - title: Thank you, Chef!
   image: tyc-landing.png
   description: Hire your own personal Gordon Ramsay to cook for you, without the yelling.
@@ -21,3 +23,4 @@
     - devicon-postgresql-plain-wordmark
     - devicon-heroku-original
     - devicon-javascript-plain
+  sites: ["https://thankyouchef.herokuapp.com/", "https://github.com/2tonepantone/thankyouchef"]
