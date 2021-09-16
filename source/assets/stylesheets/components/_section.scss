@@ -1,0 +1,19 @@
+.section {
+  padding-top: 2.5rem;
+  padding-bottom: .25rem;
+  h2 {
+    font-size: 2.5rem;
+    display: inline-block;
+    border-bottom: 4px $pastel-purple solid;
+  }
+}
+
+.section.about {
+  padding-top: 10rem;
+}
+
+@media(max-width: 576px) {
+  .title h2 {
+    padding-top: 400px;
+  }
+}

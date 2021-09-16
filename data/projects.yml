@@ -1,9 +1,9 @@
 - title: BarcSnap!
-  image: bs-landing.png
+  image: bcs-landing.png
   description: Compare information on Japanese products by scanning their barcodes.
-  tech: Leverages the Scandit Barcode Scanner SDK to read barcodes alongside
-         the gems open-uri and nokogiri to scrape https://www.jancode.xyz/ for
-         product information using XPath path expressions.
+  tech: Leverages the <em>Scandit Barcode Scanner SDK</em> to read barcodes alongside
+         the gems <em>open-uri</em> and <em>nokogiri</em> to scrape https://www.jancode.xyz/ for
+         product information using <em>XPath</em> path expressions.
   tags:
     - devicon-rails-plain-wordmark
     - devicon-postgresql-plain-wordmark
@@ -11,8 +11,11 @@
     - devicon-javascript-plain
 - title: Thank you, Chef!
   image: tyc-landing.png
-  description: Hire your own personal Gordon Ramsay, without the yelling.
-  tech:
+  description: Hire your own personal Gordon Ramsay to cook for you, without the yelling.
+  tech: Utilizes the <em>Cloudinary API</em> to store avatar and meal course images,
+        along with the <em>MapBox API</em> to show Chefs' location, the JS plugin
+        <em>flatpickr</em> to designate date and start times for bookings, and the
+        gem <em>PgSearch</em> to access our <em>PostgreSQL</em> database intelligently.
   tags:
     - devicon-rails-plain-wordmark
     - devicon-postgresql-plain-wordmark

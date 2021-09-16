@@ -1,8 +1,13 @@
 <div class="container">
-  <div class="title">
-    <h2><%= data.sections[0].title %></h2>
-  </div>
-  <div class="description">
-    <p><%= data.sections[0].description %></p>
-  </div>
+  <% data.sections.each do |section| %>
+    <div class="section <%= section.title.downcase  %>">
+      <div class="title">
+        <h2><%= section.title %></h2>
+      </div>
+      <div class="description">
+        <p><%= section.description %></p>
+      </div>
+      <%= partial "partials/projects" if section.title == "Projects" %>
+    </div>
+  <% end %>
 </div>

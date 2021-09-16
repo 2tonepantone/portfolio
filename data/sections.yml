@@ -1,6 +1,8 @@
 - title: About
-  description: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt quia distinctio, nisi nesciunt earum voluptatem facilis assumenda excepturi aperiam! Blanditiis vel, quam deleniti expedita veniam sunt accusantium quidem quo enim.
+  description: <p>Hi, I'm Kyle. I'm a Full-Stack Web Developer living in Tokyo.</p>
+               <p>I am an insatiable learner who enjoys the problem-solving
+               aspect of programming deeply.</p>
+               <p>On a typical weekend, you're most likely to find me on my bike
+               or on a train to a far-out ryokan (that's a traditional Japanese inn).</p>
 - title: Projects
-  description: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt quia distinctio, nisi nesciunt earum voluptatem facilis assumenda excepturi aperiam! Blanditiis vel, quam deleniti expedita veniam sunt accusantium quidem quo enim.
-- title: Hobbies
-  description: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt quia distinctio, nisi nesciunt earum voluptatem facilis assumenda excepturi aperiam! Blanditiis vel, quam deleniti expedita veniam sunt accusantium quidem quo enim.
+  description:
