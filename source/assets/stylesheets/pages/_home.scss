@@ -2,3 +2,9 @@
 .container.page {
   width: 75%;
 }
+
+@media(max-width: 1030px) {
+  .container.page {
+    width: 100%;
+  }
+}
