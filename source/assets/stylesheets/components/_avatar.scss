@@ -8,24 +8,26 @@
     border: $ivory 16px solid;
     align-self: center;
   }
+  .title {
+    margin-top: 2rem;
+  }
 }
 
 .avatar-infos {
   display: flex;
   flex-direction: column;
   margin-left: 3rem;
-  margin-bottom: 3rem;
   h1 {
     font-weight: 700;
   }
   div {
-    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
   .description {
-    margin-top: 3rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
   }
 }
 
@@ -41,6 +43,9 @@
     margin: 0;
     display: block;
     text-align: center;
+  .title {
+    margin: 0;
+  }
   }
   .avatar img {
     height: 300px;
@@ -48,7 +53,10 @@
   .avatar-infos {
     margin: 0;
     .description {
-      margin-top: 0;
+      margin: 0;
+    }
+    div {
+      justify-content: center !important;
     }
   }
 }
