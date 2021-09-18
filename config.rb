@@ -25,7 +25,7 @@ activate :external_pipeline,
          source: 'dist',
          latency: 1
 
-activate :metaman, host: 'https://www.kylealexbailey.com'
+activate :metaman, host: 'https://www.kylealexbailey.com/'
 
 page '/*.xml',  layout: false
 page '/*.json', layout: false
