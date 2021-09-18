@@ -13,7 +13,8 @@
 .avatar-infos {
   display: flex;
   flex-direction: column;
-  padding-left: 8px;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
   h1 {
     font-weight: 700;
   }
@@ -23,25 +24,31 @@
     flex-direction: column;
     justify-content: center;
   }
-  .title {
-    padding-top: 25px;
-  }
   .description {
-    padding-bottom: 25px;
+    margin-top: 3rem;
   }
 }
 
 @media(max-width: 576px) {
+  .title h1 {
+    font-size: 1.7rem;
+  }
+}
+
+@media(max-width: 1030px) {
   .avatar {
     height: 300px;
-    padding: 0;
+    margin: 0;
     display: block;
     text-align: center;
   }
   .avatar img {
-    height: 300px
+    height: 300px;
   }
   .avatar-infos {
-    padding-left: 0;
+    margin: 0;
+    .description {
+      margin-top: 0;
+    }
   }
 }
