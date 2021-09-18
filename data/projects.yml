@@ -1,31 +1,28 @@
-- name: BarcSnap!
-  images: [barcsnap-landing.png, barcsnap-product.png, barcsnap-compare.png,
-           barcsnap-favorites.png]
+- title: BarcSnap!
+  role: Lead Developer
+  image: bcs-landing.png
   description: Compare information on Japanese products by scanning their barcodes.
-  tech: Leverages the Scandit Barcode Scanner SDK to read barcodes alongside
-         the gems open-uri and nokogiri to scrape https://www.jancode.xyz/ for
-         product information using XPath path expressions.
+  tech: Leverages the <em>Scandit Barcode Scanner SDK</em> to read barcodes alongside
+         the gems <em>open-uri</em> and <em>nokogiri</em> to scrape https://www.jancode.xyz/ for
+         product information using <em>XPath</em> path expressions.
   tags:
     - devicon-rails-plain-wordmark
     - devicon-postgresql-plain-wordmark
     - devicon-heroku-original
     - devicon-javascript-plain
-- name: Thank you, Chef!
-  images: [thank-you-chef-landing.png, thank-you-chef-course.png,
-           thank-you-chef-bookings.png, thank-you-chef-courses.png]
-  description:
-  tech:
+  links: ["https://www.barcsnap.com/", "https://github.com/2tonepantone/barcsnap"]
+
+- title: Thank you, Chef!
+  role: Project Manager
+  image: tyc-landing.png
+  description: Hire your own personal Gordon Ramsay to cook for you, without the yelling.
+  tech: Utilizes the <em>Cloudinary API</em> to store avatar and meal course images,
+        along with the <em>MapBox API</em> to show Chefs' location, the JS plugin
+        <em>flatpickr</em> to designate date and start times for bookings, and the
+        gem <em>PgSearch</em> to access our <em>PostgreSQL</em> database intelligently.
   tags:
     - devicon-rails-plain-wordmark
     - devicon-postgresql-plain-wordmark
     - devicon-heroku-original
     - devicon-javascript-plain
-- name: Get Watching
-  images: [get-watching-list.png]
-  description:
-  tech:
-  tags:
-    - devicon-rails-plain-wordmark
-    - devicon-postgresql-plain-wordmark
-    - devicon-heroku-original
-    - devicon-javascript-plain
+  links: ["https://thankyouchef.herokuapp.com/", "https://github.com/2tonepantone/thankyouchef"]

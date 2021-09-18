@@ -1,0 +1,22 @@
+.section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  .title {
+    margin-bottom: 2rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+    display: inline-block;
+    border-bottom: 4px $pastel-purple solid;
+  }
+}
+
+.section.about {
+  margin-top: 12rem;
+}
+
+@media(max-width: 1030px) {
+  .section.about {
+    margin-top: 18rem;
+  }
+}
