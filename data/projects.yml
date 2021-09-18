@@ -4,7 +4,7 @@
   description: Compare information on Japanese products by scanning their barcodes.
   tech: Leverages the <em>Scandit Barcode Scanner SDK</em> to read barcodes alongside
          the gems <em>open-uri</em> and <em>nokogiri</em> to scrape
-         <a href="https://www.jancode.xyz/" class="text-secondary">Jancode</a> for
+         <a href="https://www.jancode.xyz/" class="text-secondary" target="_blank">Jancode</a> for
          product information using <em>XPath</em> path expressions.
   tags:
     - devicon-rails-plain-wordmark
