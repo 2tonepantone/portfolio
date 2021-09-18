@@ -17,10 +17,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kyle Alexander Bailey</title>
-    <meta property="og:title" content="<%= data.meta_tags.title %>">
-    <meta property="og:project_name" content="<%= data.meta_tags.project_name %>">
-    <meta property="og:description" content="<%= data.meta_tags.description %>">
-    <meta property="og:image" content="<%= data.meta_tags.image %>">
+    <%= display_meta_tags %>
     <%= favicon_tag 'favicon.png' %>
     <%= stylesheet_link_tag "app" %>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
