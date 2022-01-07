@@ -2,7 +2,7 @@
   role: Sole Developer
   image: js-landing.png
   description: Scan or manually enter a product's barcode to get information about it.
-  tech: Built with Python and Django. Implements the Python library <em>open-cv</em> to
+  tech: Built with Python and Django. Employs the Python library <em>open-cv</em> to
         translate image data URLs passed from the front-end into numpy arrays and
         the Python library <em>pyzbar</em> to decode said arrays into readable barcodes.
         Completely open-source.
