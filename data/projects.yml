@@ -1,3 +1,19 @@
+- title: MSYNC
+  role: Sole Developer
+  image: m-landing.png
+  description: Get similar artist and track recommendations quickly.
+  tech: A single-page application built with JavaScript and React. Uses <em>React Router</em>
+        and <em>Redux</em> to manage routing and state respectively, along with the
+        <a href="https://www.last.fm/api" class="text-secondary" target="_blank">Last.fm Music Discovery api</a>
+        to access artist and track information and provide recommendations sorted
+        by match-percent.
+  tags:
+    - devicon-javascript-plain
+    - devicon-react-original-wordmark
+    - devicon-redux-original
+    - devicon-bootstrap-plain-wordmark
+  links: ["https://msync.netlify.app", "https://github.com/2tonepantone/msync"]
+
 - title: Janscan
   role: Sole Developer
   image: js-landing.png
