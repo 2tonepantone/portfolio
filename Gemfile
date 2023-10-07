@@ -15,3 +15,7 @@ group :test do
   gem 'rspec'
   gem 'selenium-webdriver'
 end
+
+group :development do
+  gem 'middleman-livereload', '~> 3.4'
+end
