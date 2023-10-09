@@ -1,0 +1,14 @@
+<div class="media d-flex align-items-center">
+  <% if project.video %>
+    <iframe
+        width="300"
+        height="350"
+        src="<%= project.video %>"
+        title="<%= project.title %>"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+  <% elsif project.image %>
+    <%= image_tag project.image, :alt => "#{project.title} project media" %>
+  <% end%>
+</div>
