@@ -1,0 +1,95 @@
+- title: MSYNC
+  subtitle: "Team: Sole developer, Timeline: 5 days, 2021"
+  image: m-landing.png
+  description: Get similar artist and track recommendations quickly.
+  tech:
+    A single-page application built with JavaScript and React. Uses <em>React Router</em>
+    and <em>Redux</em> to manage routing and state respectively, along with the
+    <a href="https://www.last.fm/api" class="text-secondary" target="_blank">Last.fm Music Discovery api</a>
+    to access artist and track information and provide recommendations sorted
+    by match-percent.
+  tags:
+    - devicon-javascript-plain
+    - devicon-react-original-wordmark
+    - devicon-redux-original
+    - devicon-bootstrap-plain-wordmark
+  links:
+    [
+      {
+        title: "App",
+        url: "https://msync.netlify.app",
+        icon: "far fa-window-maximize",
+      },
+      {
+        title: "Code",
+        url: "https://github.com/2tonepantone/msync",
+        icon: "far fa-file-code",
+      },
+    ]
+- title: Janscan
+  subtitle: "Team: Sole developer, Timeline: 5 days, 2021"
+  image: js-landing.png
+  description: Scan or manually enter a product's barcode to get information about it.
+  tech:
+    Built with Python and Django. Employs the Python library <em>open-cv</em> to
+    translate image data URLs passed from the front end into numpy arrays and
+    the Python library <em>pyzbar</em> to decode said arrays into readable barcodes.
+    Completely open source.
+  tags:
+    - devicon-python-plain-wordmark
+    - devicon-django-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
+    - devicon-javascript-plain
+  links:
+    [
+      {
+        title: "Code",
+        url: "https://github.com/2tonepantone/jancodescanner",
+        icon: "far fa-file-code",
+      },
+    ]
+- title: BarcSnap!
+  subtitle: "Team: 3 developers, Timeline: 10 days, 2021"
+  image: bcs-landing.png
+  description: Compare information on Japanese products by scanning their barcodes.
+  tech:
+    Leverages the <em>Scandit Barcode Scanner SDK</em> to read barcodes alongside
+    the gems <em>open-uri</em> and <em>nokogiri</em> to scrape
+    <a href="https://www.jancode.xyz/" class="text-secondary" target="_blank">Jancode</a> for
+    product information using <em>XPath</em> path expressions.
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
+    - devicon-javascript-plain
+  links:
+    [
+      {
+        title: "Code",
+        url: "https://github.com/2tonepantone/barcsnap",
+        icon: "far fa-file-code",
+      },
+    ]
+- title: Thank you, Chef!
+  subtitle: "Team: 3 developers, Timeline: 10 days, 2021"
+  image: tyc-landing.png
+  description: Hire your own personal Gordon Ramsay to cook for you, without the yelling.
+  tech:
+    Utilizes the <em>Cloudinary API</em> to store avatar and meal course images,
+    along with the <em>MapBox API</em> to show Chefs' location, the JS plugin
+    <em>flatpickr</em> to designate date and start times for bookings, and the
+    gem <em>PgSearch</em> to access our <em>PostgreSQL</em> database intelligently.
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
+    - devicon-javascript-plain
+  links:
+    [
+      {
+        title: "Code",
+        url: "https://github.com/2tonepantone/thankyouchef",
+        icon: "far fa-file-code",
+      },
+    ]
