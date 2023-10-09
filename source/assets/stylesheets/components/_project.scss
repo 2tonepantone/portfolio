@@ -14,7 +14,7 @@
 
 .project:nth-child(even) {
   flex-direction: row-reverse;
-  .image {
+  .media {
     left: 0px;
   }
   .project-infos {
@@ -24,7 +24,7 @@
   }
 }
 
-.project .image {
+.project .media {
   position: relative;
   left: 150px;
   margin-left: -150px;
@@ -63,7 +63,7 @@
     margin-top: 11rem !important;
   }
 
-  .project .image {
+  .project .media {
     left: 0;
     bottom: 200px;
     margin-bottom: -184px;
@@ -76,7 +76,7 @@
   .mt-3 {
     margin-top: 7rem !important;
   }
-  .project .image {
+  .project .media {
     margin-bottom: -250px;
   }
 }
