@@ -1,0 +1,92 @@
+- title: The Macallan Double Cask Japan Experience
+  subtitle: "Team: 3 developers, Timeline: 3 weeks"
+  video: https://www.youtube.com/embed/1y18n3VFWO4?si=itAH0UPfsp9iyr2P
+  description: AR and VR experiences to support the launch of Macallan's Double Cask Whiskey in Japan.
+  tech:
+    Attendees participated in a flavor profile AR game on their phones, with the chance to win a custom Pierre Hermé chocolate.
+    Access to the AR experience was facilitated via QR codes on drink coasters distributed during whiskey tastings.
+    Additionally, attendees could explore a 360-degree VR tour of Macallan's first distillery.
+  tags:
+    - devicon-angularjs-plain
+    - devicon-typescript-plain
+    - devicon-sass-original
+    - devicon-docker-plain-wordmark
+  links:
+    [
+      { title: "App", url: "https://roppongi-ar-experience.com/" },
+      {
+        title: "Event Site",
+        url: "https://www.suntory.co.jp/whisky/macallan/special/doublecask20230420/",
+      },
+    ]
+- title: Macy's Santaland At Home 2022
+  subtitle: "Team: 9 developers, Timeline: 2 months"
+  video: https://www.youtube.com/embed/shHzPrBb_Zs?si=lh_LbiUZxAEZPB-j
+  description:
+    A virtual North Pole visit featuring immersive 360-degree environments, interactive animations,
+    a decorate-your-own AR Christmas tree Instagram filter, quizzes, games, and a photo opportunity with Santa.
+  tech: The 38-day campaign achieved 178,870 users, 437,582 sessions, with an average session time of 2:09 minutes.
+  tags:
+    - devicon-angularjs-plain
+    - devicon-typescript-plain
+    - devicon-sass-original
+    - devicon-docker-plain-wordmark
+  links:
+    [
+      {
+        title: "Event Site",
+        url: "https://www.macys.com/s/holiday-celebrations/santaland-at-home/?lid=holidaycelebrations-cta_santalandathome&cache=1696829082189",
+      },
+    ]
+- title: Marelli Design Studio
+  subtitle: "Team: 1 developer, Timeline: 9 days"
+  video: https://www.youtube.com/embed/mMOirgagCSw?si=2688Y7ORtdPSDvaK
+  description: Build custom vehicles with AR-enabled design stations.
+    Completed designs are displayed on a video wall and shared to the user via QR code or email.
+  tech: Presented at such international events as CES 2023 and Auto Shanghai 2023.
+  tags:
+    - devicon-angularjs-plain
+    - devicon-typescript-plain
+    - devicon-sass-original
+    - devicon-docker-plain-wordmark
+  links: [{ title: "App", url: "https://marellidesignstudio.com/NcttGgHr" }]
+- title: Nissan Trivia, Volkswagen Trivia
+  subtitle: "Team: 6 developers, Timeline: 2 weeks"
+  video: https://www.youtube.com/embed/_7D8eXLjc1g?si=giyBl4cjBD47VzSc
+  description: A live hosted trivia game presented at auto shows, such as the LA and New York International Auto Shows 2023.
+  tech:
+    Audience members answer questions in real-time on their mobile devices, while the host triggers questions and manages
+    the game's pace with an Electron-based control app on their tablet.
+  tags:
+    - devicon-vuejs-plain
+    - devicon-typescript-plain
+    - devicon-electron-original
+    - devicon-socketio-original
+    - devicon-sass-original
+    - devicon-docker-plain-wordmark
+  links: [{ title: "App", url: "https://nim-trivia.nissandigital.com/" }]
+- title: Shell Rotella AR
+  subtitle: "Team: 4 developers, Timeline: 1 month"
+  video: https://www.youtube.com/embed/rrLkedd74zQ?si=B2AneCaUBfIdoL_u
+  description: Learn about the benefits of using Shell Rotella branded engine oil products from this interactive mobile web experience.
+  tech: Users start the experience by aiming their camera at a Shell Rottella bottle.
+  tags:
+    - devicon-angularjs-plain
+    - devicon-typescript-plain
+    - devicon-sass-original
+    - devicon-docker-plain-wordmark
+  links: [{ title: "App", url: "https://areyoufiringonallcylinders.com/" }]
+- title: J.M. Weston Virtual Store
+  subtitle: "Team: 3 developers, Timeline: 3 months"
+  video: https://www.youtube.com/embed/hQSVKK5drUI?si=7xSGoWsnmE25JBff
+  description: A virtual shopping experience for the J.M Weston luxury shoe brand.
+  tech:
+    Utilizes 360 degree photos to create a fully navigable reproduction of the physical Tokyo location.
+    Users can explore, view videos detailing the legacy and techniques of the brand,
+    and purchase products as if they were at the store.
+  tags:
+    - devicon-angularjs-plain
+    - devicon-typescript-plain
+    - devicon-graphql-plain-wordmark
+    - devicon-sass-original
+    - devicon-docker-plain-wordmark
