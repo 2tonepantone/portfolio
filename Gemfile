@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'middleman'
 gem 'middleman-autoprefixer'
 gem 'middleman-gh-pages'
+gem 'middleman-livereload', '~> 3.4'
 gem 'middleman-metaman'
 gem 'rake'
 gem 'rubocop'
@@ -17,5 +18,7 @@ group :test do
 end
 
 group :development do
-  gem 'middleman-livereload', '~> 3.4'
+  gem 'better_html'
+  gem 'erb_lint', require: false
+  gem 'htmlbeautifier'
 end
