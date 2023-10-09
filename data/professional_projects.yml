@@ -13,10 +13,15 @@
     - devicon-docker-plain-wordmark
   links:
     [
-      { title: "App", url: "https://roppongi-ar-experience.com/" },
+      {
+        title: "App",
+        url: "https://roppongi-ar-experience.com/",
+        icon: "far fa-window-maximize",
+      },
       {
         title: "Event Site",
         url: "https://www.suntory.co.jp/whisky/macallan/special/doublecask20230420/",
+        icon: "fas fa-bullhorn",
       },
     ]
 - title: Macy's Santaland At Home 2022
@@ -36,6 +41,7 @@
       {
         title: "Event Site",
         url: "https://www.macys.com/s/holiday-celebrations/santaland-at-home/?lid=holidaycelebrations-cta_santalandathome&cache=1696829082189",
+        icon: "fas fa-bullhorn",
       },
     ]
 - title: Marelli Design Studio
@@ -49,7 +55,14 @@
     - devicon-typescript-plain
     - devicon-sass-original
     - devicon-docker-plain-wordmark
-  links: [{ title: "App", url: "https://marellidesignstudio.com/NcttGgHr" }]
+  links:
+    [
+      {
+        title: "App",
+        url: "https://marellidesignstudio.com/NcttGgHr",
+        icon: "far fa-window-maximize",
+      },
+    ]
 - title: Nissan Trivia, Volkswagen Trivia
   subtitle: "Team: 6 developers, Timeline: 2 weeks"
   video: https://www.youtube.com/embed/_7D8eXLjc1g?si=giyBl4cjBD47VzSc
@@ -64,7 +77,14 @@
     - devicon-socketio-original
     - devicon-sass-original
     - devicon-docker-plain-wordmark
-  links: [{ title: "App", url: "https://nim-trivia.nissandigital.com/" }]
+  links:
+    [
+      {
+        title: "App",
+        url: "https://nim-trivia.nissandigital.com/",
+        icon: "far fa-window-maximize",
+      },
+    ]
 - title: Shell Rotella AR
   subtitle: "Team: 4 developers, Timeline: 1 month"
   video: https://www.youtube.com/embed/rrLkedd74zQ?si=B2AneCaUBfIdoL_u
@@ -75,7 +95,14 @@
     - devicon-typescript-plain
     - devicon-sass-original
     - devicon-docker-plain-wordmark
-  links: [{ title: "App", url: "https://areyoufiringonallcylinders.com/" }]
+  links:
+    [
+      {
+        title: "App",
+        url: "https://areyoufiringonallcylinders.com/",
+        icon: "far fa-window-maximize",
+      },
+    ]
 - title: J.M. Weston Virtual Store
   subtitle: "Team: 3 developers, Timeline: 3 months"
   video: https://www.youtube.com/embed/hQSVKK5drUI?si=7xSGoWsnmE25JBff
