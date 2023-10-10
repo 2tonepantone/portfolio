@@ -28,12 +28,23 @@
   position: relative;
   left: 150px;
   margin-left: -150px;
+
+  &:has(iframe) {
+    height: 350px;
+    align-self: center;
+  }
 }
 
-.project img {
+.project img, iframe {
   width: 300px;
   height: 350px;
   object-fit: contain;
+}
+
+.project iframe {
+  @media(max-width: 375px) {
+    height: auto;
+  }
 }
 
 @media(max-width: 1030px) {
@@ -42,8 +53,8 @@
     border: 10px solid $nyanza;
     flex-direction: column;
 
-    img {
-        width: 100%;
+    img, iframe {
+      width: 100%;
     }
 
     .project-infos {
