@@ -33,6 +33,7 @@ page '/*.txt',  layout: false
 
 configure :development do
   set      :debug_assets, true
+  activate :livereload
 end
 
 configure :build do

@@ -1,0 +1,6 @@
+<div class="project-buttons mt-1">
+  <% links&.each do |link| %>
+    <a href="<%= link.url %>" target="_blank" class="btn btn-secondary btn-sm">
+      <i class="<%= link.icon %>"></i> <%= link.title %></a>
+  <% end %>
+</div>

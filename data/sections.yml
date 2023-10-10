@@ -4,5 +4,7 @@
                aspect of programming.</p>
                <p>On a typical weekend, you're most likely to find me on my bike
                or on a train to a far-flung ryokan.</p>
-- title: Projects
-  description:
+- title: Professional Projects
+  id: professional_projects
+- title: Personal Projects
+  id: personal_projects

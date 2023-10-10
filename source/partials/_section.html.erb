@@ -7,7 +7,7 @@
       <div class="description">
         <p><%= section.description %></p>
       </div>
-      <%= partial "partials/projects" if section.title == "Projects" %>
+      <%= partial "partials/projects", locals: { category: section.id } if section.title["Projects"] %>
     </div>
   <% end %>
 </div>
