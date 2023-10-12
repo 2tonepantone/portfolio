@@ -1,7 +1,7 @@
 - title: The Macallan Double Cask Japan Experience
   subtitle: "Team: 3 developers, Timeline: 3 weeks"
   video: https://www.youtube.com/embed/1y18n3VFWO4?si=itAH0UPfsp9iyr2P
-  description: AR and VR experiences to support the launch of Macallan's Double Cask Whiskey in Japan.
+  description: AR and VR experiences to support the launch of Macallan's Double Cask Whisky in Japan.
   tech:
     Attendees participated in a flavor profile AR game on their phones, with the chance to win a custom Pierre Hermé chocolate.
     Additionally, attendees could explore a 360-degree VR tour of Macallan's first distillery.
@@ -105,9 +105,9 @@
 - title: J.M. Weston Virtual Store
   subtitle: "Team: 3 developers, Timeline: 3 months"
   video: https://www.youtube.com/embed/hQSVKK5drUI?si=7xSGoWsnmE25JBff
-  description: A virtual shopping experience for the J.M Weston luxury shoe brand.
+  description: A virtual shopping experience for the J.M. Weston luxury shoe brand.
   tech:
-    Utilizes 360 degree photos to create a fully navigable reproduction of the physical Tokyo location.
+    Utilizes 360-degree photos to create a fully navigable reproduction of the physical Tokyo location.
     Users can explore, view videos detailing the legacy and techniques of the brand,
     and purchase products as if they were at the store.
   tags:
