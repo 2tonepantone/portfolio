@@ -1,9 +1,9 @@
 - title: About
-  description: <p>Hi, I'm Kyle. I'm a Full-Stack Web Developer living in Tokyo.</p>
-               <p>I am an insatiable learner who deeply enjoys the problem-solving
-               aspect of programming.</p>
-               <p>On a typical weekend, you're most likely to find me on my bike
-               or on a train to a far-flung ryokan.</p>
+  description: Hi, I'm Kyle. I'm a Software Engineer living in Tokyo.
+    <p>I am an insatiable learner who deeply enjoys the problem-solving
+    aspect of programming.</p>
+    <p>On a typical weekend, you're most likely to find me on my bike
+    or on a road trip to a far-flung ryokan.</p>
 - title: Professional Projects
   id: professional_projects
 - title: Personal Projects
