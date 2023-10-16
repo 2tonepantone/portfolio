@@ -102,17 +102,3 @@
         icon: "far fa-window-maximize",
       },
     ]
-- title: J.M. Weston Virtual Store
-  subtitle: "Team: 3 developers, Timeline: 3 months"
-  video: https://www.youtube.com/embed/hQSVKK5drUI?si=7xSGoWsnmE25JBff
-  description: A virtual shopping experience for the J.M. Weston luxury shoe brand.
-  tech:
-    Utilizes 360-degree photos to create a fully navigable reproduction of the physical Tokyo location.
-    Users can explore, view videos detailing the legacy and techniques of the brand,
-    and purchase products as if they were at the store.
-  tags:
-    - devicon-angularjs-plain
-    - devicon-typescript-plain
-    - devicon-graphql-plain-wordmark
-    - devicon-sass-original
-    - devicon-docker-plain-wordmark
