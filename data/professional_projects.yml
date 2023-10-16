@@ -102,3 +102,22 @@
         icon: "far fa-window-maximize",
       },
     ]
+- title: Heart Closet
+  subtitle: "Team: 1 developer, Timeline: 1 month"
+  image: hc-landing.png
+  description: Shop in comfort and discover the perfect fit at this Shopify-powered clothing storefront catering to clients of all body types.
+  tech: Developed with Liquid, TypeScript, jQuery, Swiper.js, AJAX, and SCSS.
+  tags:
+    - devicon-ruby-plain-wordmark
+    - devicon-typescript-plain
+    - devicon-jquery-plain-wordmark
+    - devicon-sass-original
+    - devicon-docker-plain-wordmark
+  links:
+    [
+      {
+        title: "App",
+        url: "https://heart-closet.com/",
+        icon: "far fa-window-maximize",
+      },
+    ]
